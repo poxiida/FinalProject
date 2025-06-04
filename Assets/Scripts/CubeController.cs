@@ -13,7 +13,7 @@ public class CubeController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.rotation = controllerTransform.rotation;
     }

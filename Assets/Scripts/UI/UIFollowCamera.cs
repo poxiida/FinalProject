@@ -7,7 +7,7 @@ public class UIFollowCamera : MonoBehaviour
     public Transform cameraTransform;       // VRカメラ
     public float distanceFromCamera = 1.0f; // カメラからの距離
 
-    void Update()
+    void LateUpdate()
     {
         if (cameraTransform == null) return;
 
